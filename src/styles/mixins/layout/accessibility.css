@@ -1,0 +1,48 @@
+.skip-link {
+  background-color: var(--white);
+  display: block;
+  font-size: 1rem;
+  left: -9999em;
+  position: fixed;
+  z-index: 1000;
+
+  &:focus,
+  &:active {
+    top: 1rem;
+    left: 1rem;
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+*:focus {
+  outline: 1px dotted var(--black);
+}
+
+.visuallyhidden {
+  display: none;
+}
+
+/* stylelint-disable-next-line media-feature-name-no-unknown */
+@media screen and (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* stylelint-disable-next-line media-feature-name-no-unknown */
+@media screen and (inverted-colors: inverted) {
+  img {
+    filter: invert(100%);
+  }
+}

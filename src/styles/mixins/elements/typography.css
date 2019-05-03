@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'Skoda Next';
+  src: url('/fonts/skoda-next-regular.woff2') format('woff2'),
+    url('/fonts/skoda-next-regular.woff') format('woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Skoda Next';
+  src: url('/fonts/skoda-next-bold.woff2') format('woff2'),
+    url('/fonts/skoda-next-bold.woff') format('woff');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Filmotype Lucky';
+  src: url('/fonts/filmotype.woff2') format('woff2'),
+    url('/fonts/filmotype.woff') format('woff');
+  font-weight: 400;
+}
+
+html {
+  font-size: var(--font-size-base);
+}
+
+body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  line-height: var(--line-height-base);
+  font-weight: var(--font-weight-normal);
+  color: var(--text-color);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: var(--font-family-base);
+  font-display: optional;
+}
+
+p {
+  hanging-punctuation: first;
+  margin: 0 0 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+  font-weight: var(--font-weight-bold);
+}
+
+h1 {
+  margin: 0 0 0.5em;
+  font-size: 2rem;
+}
+
+h2 {
+  margin: 0.5em 0 0em;
+  font-size: 1.5rem;
+}
+
+h3 {
+  margin: 0.5em 0 0em;
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+h5 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+address {
+  font-style: normal;
+}

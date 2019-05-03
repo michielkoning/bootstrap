@@ -1,0 +1,39 @@
+table {
+  width: 100%;
+  font-size: 1em;
+  border-left: 2px solid var(--black);
+  border-top: 2px solid var(--black);
+  border-right: 2px solid var(--black);
+}
+
+th,
+td {
+  background: var(--white);
+  padding: 0.5em;
+  text-align: left;
+  border-bottom: 2px solid var(--black);
+
+  &:not(:last-child) {
+    border-right: 2px solid var(--black);
+  }
+}
+
+th {
+  font-weight: var(--font-weight-bold);
+}
+
+td {
+  vertical-align: top;
+}
+
+thead th {
+  vertical-align: bottom;
+}
+
+tbody tr:nth-child(2n) {
+  & th,
+  & td {
+    background: var(--black);
+  }
+}
+

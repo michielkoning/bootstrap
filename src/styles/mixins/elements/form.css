@@ -1,0 +1,100 @@
+legend {
+  padding: 0;
+}
+
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+}
+
+.form-item {
+  margin-bottom: 1rem;
+}
+
+textarea,
+input[type='text'],
+input[type='search'],
+input[type='number'],
+input[type='email'],
+input[type='date'],
+input[type='tel'],
+input[type='url'],
+select {
+  appearance: none;
+  border: 0;
+  background: #f2f2f2;
+  border-radius: 0.25em;
+  width: 100%;
+  height: auto;
+  padding: 1.25rem 0.75rem 0.75rem;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.15s ease-out;
+  background: #f2f2f2;
+  transition: background-color 0.1s ease-out;
+
+  &:disabled {
+    background-color: var(--gray-lightest);
+    color: var(--gray-light);
+  }
+
+  &.has-error {
+    border-color: var(--color-danger);
+  }
+
+  &:focus {
+    background: #e4e4e4;
+    outline: none;
+  }
+}
+
+textarea,
+input {
+  &:read-only {
+    cursor: default;
+    pointer-events: none;
+  }
+
+  &::placeholder {
+    color: var(--gray-dark);
+  }
+}
+
+textarea {
+  resize: vertical;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.25em;
+  font-weight: var(--font-weight-bold);
+
+  .optional {
+    font-weight: var(--font-weight-normal);
+  }
+
+  button {
+    color: currentColor;
+    text-decoration: underline;
+  }
+}
+
+.form-item {
+  margin-bottom: 0;
+  position: relative;
+
+  & label {
+    position: absolute;
+    transition: transform 0.2s ease-out;
+    top: 1rem;
+    left: 0.75rem;
+    line-height: 1.2;
+    transform-origin: 0 0;
+
+    &.focus {
+      transform: scale(0.7) translateY(-1em);
+    }
+  }
+}

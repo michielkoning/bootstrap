@@ -1,0 +1,13 @@
+:root {
+  --container-width-xs: 18rem;
+  --container-width-sm: 30rem;
+  --container-width-md: 36rem;
+  --container-width-lg: 52rem;
+  --container-width-xlg: 64rem;
+
+  --gutter: 1em;
+
+  @media (--viewport-md) {
+    --gutter: 2em;
+  }
+}
