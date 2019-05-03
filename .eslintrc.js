@@ -7,4 +7,7 @@ module.exports = {
   parserOptions: {
     parser: 'babel-eslint',
   },
+  rules: {
+    'import/no-unresolved': 'off',
+  },
 };

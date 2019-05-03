@@ -1,3 +1,9 @@
 @import './variables/_base.css';
 @import './elements/_base.css';
 @import './layout/_base.css';
+
+.test {
+  margin: 0.5em;
+  margin: 0.5em;
+  margin: 0.5em;
+}

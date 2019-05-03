@@ -50,7 +50,6 @@ module.exports = {
         loader: 'eslint-loader',
         enforce: 'pre',
         options: {
-          quiet: true,
           emitWarning: true,
           fix: true,
         },
@@ -111,7 +110,7 @@ module.exports = {
         port: settings.port,
         proxy: settings.proxy,
         open: false,
-        files: [`${PATHS.assets}/**/*`, './**/*.php'],
+        files: [`${PATHS.dist}/**/*`],
       },
       {
         reload: false,
