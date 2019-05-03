@@ -459,7 +459,8 @@ tbody tr:nth-child(2n) {
 }
 
 * {
-  &,
+  box-sizing: border-box;
+
   &::before,
   &::after {
     box-sizing: border-box;

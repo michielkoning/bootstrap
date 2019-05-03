@@ -4,6 +4,7 @@ const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 const SVGSpriteLoaderPlugin = require('svg-sprite-loader/plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const StylelintWebpackPlugin = require('stylelint-webpack-plugin');
+const VueLoaderPlugin = require('vue-loader/lib/plugin');
 
 const PATHS = {
   src: path.resolve(__dirname, 'assets'),
@@ -24,6 +25,7 @@ module.exports = {
     alias: {
       styles: `${PATHS.src}/styles/`,
       icons: `${PATHS.src}/icons/`,
+      '@': `${PATHS.src}/scripts/app`,
     },
   },
   output: {
@@ -55,9 +57,14 @@ module.exports = {
         },
       },
       {
+        test: /\.vue$/,
+        loader: 'vue-loader',
+      },
+      {
         test: /\.css$/,
         enforce: 'pre',
         use: [
+          'vue-style-loader',
           {
             loader: MiniCssExtractPlugin.loader,
             options: {
@@ -126,5 +133,6 @@ module.exports = {
     new SVGSpriteLoaderPlugin({
       plainSprite: true,
     }),
+    new VueLoaderPlugin(),
   ],
 };
