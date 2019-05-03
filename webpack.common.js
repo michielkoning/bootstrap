@@ -3,11 +3,11 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 const SVGSpriteLoaderPlugin = require('svg-sprite-loader/plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
-const StyleLintPlugin = require('stylelint-webpack-plugin');
+const StylelintWebpackPlugin = require('stylelint-webpack-plugin');
 
 const PATHS = {
-  assets: path.resolve(__dirname, 'assets'),
-  src: path.resolve(__dirname, 'src'),
+  src: path.resolve(__dirname, 'assets'),
+  dist: path.resolve(__dirname, 'theme'),
 };
 
 const settings = {
@@ -18,20 +18,17 @@ const settings = {
 
 module.exports = {
   entry: {
-    main: `${PATHS.theme}/scripts/functions.js`,
-    assets: `${PATHS.theme}/scripts/assets.js`,
+    main: `${PATHS.src}/scripts/functions.js`,
   },
   resolve: {
     alias: {
-      defaults: `${PATHS.defaults}/`,
-      styles: `${PATHS.theme}/styles/`,
-      icons: `${PATHS.theme}/icons/`,
-      images: `${PATHS.theme}/images/`,
+      styles: `${PATHS.src}/styles/`,
+      icons: `${PATHS.src}/icons/`,
     },
   },
   output: {
     filename: '[name].js',
-    path: `${PATHS.assets}/scripts`,
+    path: `${PATHS.dist}/scripts`,
   },
   stats: {
     children: false,
@@ -64,8 +61,11 @@ module.exports = {
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
+            options: {
+              publicPath: PATHS.dist,
+            },
           },
-          'style-loader',
+          'css-loader',
           'postcss-loader',
         ],
       },
@@ -80,7 +80,6 @@ module.exports = {
       },
       {
         test: /\.svg$/,
-        exclude: /favicons/, // dit moet eigenlijk gewoon een regex worden
         use: [
           {
             loader: 'svg-sprite-loader',
@@ -105,7 +104,7 @@ module.exports = {
     ],
   },
   plugins: [
-    new CleanWebpackPlugin([PATHS.assets]),
+    new CleanWebpackPlugin(),
     new BrowserSyncPlugin(
       {
         host: settings.host,
@@ -118,12 +117,12 @@ module.exports = {
         reload: false,
       },
     ),
-    new StyleLintPlugin({
+    new StylelintWebpackPlugin({
       lintDirtyModulesOnly: true,
     }),
     new MiniCssExtractPlugin({
       filename: '[name].css',
-      chunkFilename: '[id].css',
+      chunkFilename: '[name].css',
     }),
     new SVGSpriteLoaderPlugin({
       plainSprite: true,

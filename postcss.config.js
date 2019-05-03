@@ -2,7 +2,7 @@ module.exports = {
   plugins: {
     'postcss-mixins': {},
     'postcss-preset-env': {
-      importFrom: ['./src/styles/mixins/media-queries.css'],
+      importFrom: ['./assets/styles/mixins/media-queries.css'],
 
       features: {
         'nesting-rules': true,
