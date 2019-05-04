@@ -11,7 +11,7 @@ function theme_style()
     );
 }
 
-add_action('wp_enqueue_scripts', 'theme_style');
+// add_action('wp_enqueue_scripts', 'theme_style');
 
 function add_scripts()
 {
@@ -19,7 +19,7 @@ function add_scripts()
 
     wp_enqueue_script(
         'functions',
-        get_template_directory_uri() . '/scripts/main.js',
+        get_template_directory_uri() . '/assets/main.js',
         null,
         $version
     );

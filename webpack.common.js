@@ -7,7 +7,7 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin');
 
 const PATHS = {
   src: path.resolve(__dirname, 'assets'),
-  dist: path.resolve(__dirname, 'theme'),
+  dist: path.join(process.cwd(), 'theme/assets'),
 };
 
 const settings = {
@@ -29,7 +29,7 @@ module.exports = {
   },
   output: {
     filename: '[name].js',
-    path: `${PATHS.dist}/scripts`,
+    path: `${PATHS.dist}`,
   },
   stats: {
     children: false,
@@ -41,9 +41,6 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         loader: 'babel-loader',
-        options: {
-          presets: ['@babel/preset-env'],
-        },
       },
       {
         test: /\.js$/,
@@ -66,7 +63,7 @@ module.exports = {
         include: /fonts/,
         options: {
           name: '[name].[ext]',
-          outputPath: './../fonts',
+          outputPath: './fonts/',
         },
       },
       {
@@ -77,7 +74,7 @@ module.exports = {
             options: {
               symbolId: 'icon-[name]',
               extract: true,
-              spriteFilename: `./../icons/icons.svg`,
+              spriteFilename: `./icons/icons.svg`,
             },
           },
           {
