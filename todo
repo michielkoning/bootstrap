@@ -1,9 +1,5 @@
 gitignore op assets
 juiste paden publishen & opschonen
-kleuren in vue werken niet
 default js en css toevoegen
-vue linters
 default vue components (buttons, modal, fieldset)
 modal als webcomponent?
-translations
-prettier

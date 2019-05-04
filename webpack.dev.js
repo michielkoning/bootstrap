@@ -7,13 +7,16 @@ module.exports = merge(common, {
   module: {
     rules: [
       {
-        test: /\.css$/,
-        enforce: 'pre',
+        test: /\.(postcss|css)$/,
         use: [
           'vue-style-loader',
-          'style-loader',
-          { loader: 'css-loader', options: { importLoaders: 1 } },
-          'postcss-loader',
+          {
+            loader: 'css-loader',
+            options: { importLoaders: 1 },
+          },
+          {
+            loader: 'postcss-loader',
+          },
         ],
       },
     ],

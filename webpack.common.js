@@ -24,7 +24,7 @@ module.exports = {
     alias: {
       styles: `${PATHS.src}/styles/`,
       icons: `${PATHS.src}/icons/`,
-      '@': `${PATHS.src}/scripts/app`,
+      '@': `${PATHS.src}/vue/`,
     },
   },
   output: {
@@ -77,7 +77,7 @@ module.exports = {
             options: {
               symbolId: 'icon-[name]',
               extract: true,
-              spriteFilename: './../icons/icons.svg',
+              spriteFilename: `./../icons/icons.svg`,
             },
           },
           {

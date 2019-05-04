@@ -1,24 +1,33 @@
 <template>
   <div id="app">
-    <div class="wrapper">
-      {{ hello }}
-    </div>
+    <button @click="toggleModal(true)">Click</button>
+    <app-modal title="test" @close="toggleModal(false)" v-show="showModal">adasd</app-modal>
   </div>
 </template>
 
 <script>
+import AppModal from '@/components/AppModal.vue';
+
 export default {
+  components: {
+    AppModal,
+  },
   data() {
     return {
       hello: 'world',
+      showModal: false,
     };
   },
-  methods: {},
+  methods: {
+    toggleModal(showModal) {
+      this.showModal = showModal;
+    },
+  },
 };
 </script>
 
-<style scoped>
+<style scoped lang="postcss">
 .wrapper {
-  background: #000;
+  background: #f0f;
 }
 </style>

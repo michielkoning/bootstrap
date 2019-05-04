@@ -21,3 +21,5 @@ yarn-error.log*
 *.sw*
 
 theme/scripts
+theme/icons
+theme/styles
