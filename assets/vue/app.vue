@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style scoped>
-#app {
+.wrapper {
   background: #000;
 }
 </style>

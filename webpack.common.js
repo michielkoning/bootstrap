@@ -1,5 +1,4 @@
 const path = require('path');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 const SVGSpriteLoaderPlugin = require('svg-sprite-loader/plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
@@ -60,21 +59,7 @@ module.exports = {
         test: /\.vue$/,
         loader: 'vue-loader',
       },
-      {
-        test: /\.css$/,
-        enforce: 'pre',
-        use: [
-          'vue-style-loader',
-          {
-            loader: MiniCssExtractPlugin.loader,
-            options: {
-              publicPath: PATHS.dist,
-            },
-          },
-          'css-loader',
-          'postcss-loader',
-        ],
-      },
+
       {
         test: /\.(woff|woff2)$/,
         loader: 'file-loader',
@@ -125,10 +110,6 @@ module.exports = {
     ),
     new StylelintWebpackPlugin({
       lintDirtyModulesOnly: true,
-    }),
-    new MiniCssExtractPlugin({
-      filename: '[name].css',
-      chunkFilename: '[name].css',
     }),
     new SVGSpriteLoaderPlugin({
       plainSprite: true,
