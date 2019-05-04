@@ -23,6 +23,8 @@ function add_scripts()
         null,
         $version
     );
+    wp_enqueue_script( 'vue', 'https://unpkg.com/vue', false );
+
 }
 
 add_action('wp_enqueue_scripts', 'add_scripts');
