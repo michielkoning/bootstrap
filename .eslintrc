@@ -1,9 +1,15 @@
 {
   "root": true,
   "env": {
+    "browser": true,
     "node": true
   },
-  "extends": ["airbnb"],
+  "extends": [
+    "airbnb",
+    "plugin:vue/recommended",
+    "@vue/airbnb",
+    "@vue/prettier"
+  ],
   "parserOptions": {
     "parser": "babel-eslint"
   },

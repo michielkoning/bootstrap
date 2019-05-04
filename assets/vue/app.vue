@@ -2,7 +2,6 @@
   <div id="app">
     <div class="wrapper">
       {{ hello }}
-
     </div>
   </div>
 </template>
@@ -14,6 +13,7 @@ export default {
       hello: 'world',
     };
   },
+  methods: {},
 };
 </script>
 
