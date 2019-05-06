@@ -46,11 +46,11 @@ function header_post()
 
   <a href="#main" class="skip-link"><?php _e(
       'To maincontent',
-      'gradient'
+      'bootstrap '
   ); ?></a>
   <a href="#menu" class="skip-link"><?php _e(
       'To mainmenu',
-      'gradient'
+      'bootstrap'
   ); ?></a>
 
   <?php

@@ -12,11 +12,11 @@
         <header>
           <h2 id="modal" class="title" data-qa="modal-title">{{ title }}</h2>
           <button type="button" class="close" @click="close">
-            <Icon icon="close" title="Sluiten"/>
+            <Icon icon="close" title="Sluiten" />
           </button>
         </header>
         <div class="content" data-qa="modal-content">
-          <slot/>
+          <slot />
         </div>
       </article>
     </div>
@@ -98,7 +98,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="postcss">
 .modal {
   text-align: left;
   overflow-x: hidden;

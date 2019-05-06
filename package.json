@@ -1,5 +1,5 @@
 {
-  "name": "gradient",
+  "name": "bootstrap",
   "version": "1.0.0",
   "description": "",
   "main": "index.php",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://michielkoning@github.com/michielkoning/gradient.git"
+    "url": "git+https://michielkoning@github.com/michielkoning/bootstrap.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/michielkoning/gradient/issues"
+    "url": "https://github.com/michielkoning/bootstrap/issues"
   },
-  "homepage": "https://github.com/michielkoning/gradient#readme",
+  "homepage": "https://github.com/michielkoning/bootstrap#readme",
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/plugin-proposal-optional-chaining": "^7.2.0",

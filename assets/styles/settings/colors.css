@@ -1,0 +1,20 @@
+:root {
+  --black: #000;
+  --white: #fff;
+  --gray-darker: #41494c;
+  --gray-dark: #728186;
+  --gray: #a3b8c0;
+  --gray-light: #becdd3;
+  --gray-lighter: #e6e6e6;
+  --gray-lightest: #f1f4f5;
+  --text-color: #000;
+  --primary-color: #4ba82e;
+  --primary-color-dark: #449729;
+}
+
+@media (--dark-mode) {
+  :root {
+    --black: #fff;
+    --white: #000;
+  }
+}

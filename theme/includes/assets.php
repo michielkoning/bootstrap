@@ -4,7 +4,7 @@ function theme_style()
     // Theme stylesheet.
     $version = wp_get_theme()->get('Version');
     wp_enqueue_style(
-        'gradient',
+        'bootstrap',
         get_template_directory_uri() . '/scripts/main.css',
         false,
         $version

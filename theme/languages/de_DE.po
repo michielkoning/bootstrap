@@ -1,301 +1,224 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Adler\n"
-"POT-Creation-Date: 2018-08-28 20:32+0200\n"
-"PO-Revision-Date: 2018-09-01 13:44+0200\n"
+"Project-Id-Version: Bootstrap\n"
+"POT-Creation-Date: 2019-05-06 11:19+0200\n"
+"PO-Revision-Date: 2019-05-06 11:19+0200\n"
 "Last-Translator: \n"
 "Language-Team: Michiel Koning\n"
 "Language: de_DE@formal\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2.1\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: __;_e\n"
-"X-Poedit-SearchPath-0: includes/custom-posts.php\n"
-"X-Poedit-SearchPath-1: views\n"
-"X-Poedit-SearchPath-2: includes/form.php\n"
-"X-Poedit-SearchPath-3: includes/cookie-wall.php\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
 
-#: includes/cookie-wall.php:7
-msgid ""
-"By continuing to visit this website, you agree to the placement of cookies. "
-"For more information, see our "
+#: includes/menu.php:5
+msgid "Header Menu"
 msgstr ""
-"Durch die Verwendung dieser Seite erklären Sie sich einverstanden, dass "
-"diese Website Cookies verwendet. Mehr Info dazu in unserer "
 
-#: includes/cookie-wall.php:8
-msgid "privacy policy"
-msgstr "Datenschutzerklärung"
-
-#: includes/cookie-wall.php:10
-msgid "Accept"
-msgstr "Akzeptieren"
-
-#: includes/custom-posts.php:36
-msgid "arrangements"
-msgstr "arrangements"
-
-#: includes/custom-posts.php:75
-msgid "rooms"
-msgstr "zimmer"
-
-#: includes/form.php:67 includes/form.php:68
-msgid "Error when sending form"
-msgstr "Fehler beim Formular versenden"
-
-#: includes/form.php:92
-msgid ""
-"Thank you very much for your response. We will contact you as soon as "
-"possible."
-msgstr ""
-"Vielen Dank für ihre Antwort. Wir werden uns so schnell wie möglich mit "
-"Ihnen in Verbindung setzen."
-
-#: views/archive.twig:21
-msgid "Read more"
-msgstr "Mehr Info"
-
-#: views/base.twig:6
+#: includes/theme-settings.php:48
 msgid "To maincontent"
 msgstr "Zu Main Content"
 
-#: views/base.twig:7
+#: includes/theme-settings.php:52
 msgid "To mainmenu"
 msgstr "Zu MainMenu"
 
-#: views/base.twig:22
-msgid "Mainmenu"
-msgstr "Menü"
+#~ msgid "By continuing to visit this website, you agree to the placement of cookies. For more information, see our "
+#~ msgstr "Durch die Verwendung dieser Seite erklären Sie sich einverstanden, dass diese Website Cookies verwendet. Mehr Info dazu in unserer "
 
-#: views/base.twig:39
-msgid "Languages"
-msgstr "Sprachen"
+#~ msgid "privacy policy"
+#~ msgstr "Datenschutzerklärung"
 
-#: views/base.twig:61 views/base.twig:62
-msgid "Useful links"
-msgstr "Nützliche Links"
+#~ msgid "Accept"
+#~ msgstr "Akzeptieren"
 
-#: views/front-page.twig:25
-msgid "in Lingenau, Bregenzerwald"
-msgstr "in Lingenau im Bregenzerwald"
+#~ msgid "arrangements"
+#~ msgstr "arrangements"
 
-#: views/front-page.twig:35
-msgid "Our blog"
-msgstr "Unsere Neuigkeiten"
+#~ msgid "rooms"
+#~ msgstr "zimmer"
 
-#: views/page-contact.twig:33
-msgid "Contact us"
-msgstr "Kontakt"
+#~ msgid "Error when sending form"
+#~ msgstr "Fehler beim Formular versenden"
 
-#: views/page-contact.twig:41 views/single-arrangement.twig:66
-msgid "Name"
-msgstr "Name"
+#~ msgid "Thank you very much for your response. We will contact you as soon as possible."
+#~ msgstr "Vielen Dank für ihre Antwort. Wir werden uns so schnell wie möglich mit Ihnen in Verbindung setzen."
 
-#: views/page-contact.twig:42 views/single-arrangement.twig:71
-msgid "Emailaddress"
-msgstr "E-mailaddress"
+#~ msgid "Read more"
+#~ msgstr "Mehr Info"
 
-#: views/page-contact.twig:43 views/single-arrangement.twig:72
-msgid "Phonenumber"
-msgstr "Telefon"
+#~ msgid "Mainmenu"
+#~ msgstr "Menü"
 
-#: views/page-contact.twig:44
-msgid "Message"
-msgstr "Nachricht"
+#~ msgid "Languages"
+#~ msgstr "Sprachen"
 
-#: views/page-contact.twig:46
-msgid "Send"
-msgstr "Senden"
+#~ msgid "Useful links"
+#~ msgstr "Nützliche Links"
 
-#: views/page-contact.twig:48 views/single-arrangement.twig:114
-msgid "Fields marked with * are required."
-msgstr "Die mit * bezeichneten Felder sind erforderlich."
+#~ msgid "in Lingenau, Bregenzerwald"
+#~ msgstr "in Lingenau im Bregenzerwald"
 
-#: views/page-hotel.twig:35
-msgid "Read more about our"
-msgstr "Mehr Info zum"
+#~ msgid "Our blog"
+#~ msgstr "Unsere Neuigkeiten"
 
-#: views/partials/address.twig:2 views/single-arrangement.twig:67
-msgid "Address"
-msgstr "Adresse"
+#~ msgid "Contact us"
+#~ msgstr "Kontakt"
 
-#: views/partials/address.twig:11
-msgid "Tel"
-msgstr "Tel"
+#~ msgid "Name"
+#~ msgstr "Name"
 
-#: views/partials/address.twig:12
-msgid "E-mail"
-msgstr "Email"
+#~ msgid "Emailaddress"
+#~ msgstr "E-mailaddress"
 
-#: views/partials/address.twig:13
-msgid "Travel directions"
-msgstr "Routenbeschreibung"
+#~ msgid "Phonenumber"
+#~ msgstr "Telefon"
 
-#: views/partials/banner.twig:5 views/partials/banner.twig:7
-msgid "ratings"
-msgstr "Bewertungen"
+#~ msgid "Message"
+#~ msgstr "Nachricht"
 
-#: views/partials/banner.twig:7
-msgid "Based on"
-msgstr "Basierend auf"
+#~ msgid "Send"
+#~ msgstr "Senden"
 
-#: views/partials/defaults/modal.twig:7
-msgid "Close"
-msgstr "Schliessen"
+#~ msgid "Fields marked with * are required."
+#~ msgstr "Die mit * bezeichneten Felder sind erforderlich."
 
-#: views/partials/facilities.twig:4
-msgid "Facilities"
-msgstr "Einrichtungen"
+#~ msgid "Read more about our"
+#~ msgstr "Mehr Info zum"
 
-#: views/partials/gallery.twig:44
-msgid "More photos"
-msgstr "Mehr Fotos"
+#~ msgid "Address"
+#~ msgstr "Adresse"
 
-#: views/partials/highlight-item.twig:27
-msgid "More info"
-msgstr "Mehr Info"
+#~ msgid "Tel"
+#~ msgstr "Tel"
 
-#: views/partials/highlights.twig:4
-msgid "Our arrangements"
-msgstr "Unsere Arrangements"
+#~ msgid "E-mail"
+#~ msgstr "Email"
 
-#: views/partials/opening-times.twig:2
-msgid "Opening hours"
-msgstr "Öffnungszeiten"
+#~ msgid "Travel directions"
+#~ msgstr "Routenbeschreibung"
 
-#: views/partials/price-badge.twig:3
-msgid "From"
-msgstr "Von"
+#~ msgid "ratings"
+#~ msgstr "Bewertungen"
 
-#: views/partials/social-links.twig:2
-msgid "Follow us on"
-msgstr "Folgen Sie uns auf"
+#~ msgid "Based on"
+#~ msgstr "Basierend auf"
 
-#: views/partials/social-links.twig:6 views/partials/social-links.twig:7
-#: views/partials/social-links.twig:13 views/partials/social-links.twig:14
-#: views/partials/social-links.twig:20 views/partials/social-links.twig:21
-msgid "Follow Adler on"
-msgstr "Folgen Sie unserem Hotel Adler auf"
+#~ msgid "Close"
+#~ msgstr "Schliessen"
 
-#: views/single-arrangement.twig:18
-msgid "Prices"
-msgstr "Preise"
+#~ msgid "Facilities"
+#~ msgstr "Einrichtungen"
 
-#: views/single-arrangement.twig:28
-msgid ""
-"Prices mentioned are total prices for the package above, including tourist "
-"tax."
-msgstr ""
-"Die genannten Preise sind die Gesamtpreise für das Arrangement inkl. Kurtaxe."
+#~ msgid "More photos"
+#~ msgstr "Mehr Fotos"
 
-#: views/single-arrangement.twig:35 views/single-room.twig:80
-msgid "Book now"
-msgstr "Jetzt buchen"
+#~ msgid "More info"
+#~ msgstr "Mehr Info"
 
-#: views/single-arrangement.twig:56 views/single-room.twig:103
-#, php-format
-msgid "Book %s"
-msgstr "%s buchen"
+#~ msgid "Our arrangements"
+#~ msgstr "Unsere Arrangements"
 
-#: views/single-arrangement.twig:64
-msgid "Personal details"
-msgstr "Persönliche Info"
+#~ msgid "Opening hours"
+#~ msgstr "Öffnungszeiten"
 
-#: views/single-arrangement.twig:68
-msgid "Zipcode"
-msgstr "PLZ"
+#~ msgid "From"
+#~ msgstr "Von"
 
-#: views/single-arrangement.twig:69
-msgid "City"
-msgstr "Ort"
+#~ msgid "Follow us on"
+#~ msgstr "Folgen Sie uns auf"
 
-#: views/single-arrangement.twig:70
-msgid "Country"
-msgstr "Land"
+#~ msgid "Follow Adler on"
+#~ msgstr "Folgen Sie unserem Hotel Adler auf"
 
-#: views/single-arrangement.twig:77
-msgid "Details of your holiday"
-msgstr "Urlaubsinfo"
+#~ msgid "Prices"
+#~ msgstr "Preise"
 
-#: views/single-arrangement.twig:78
-msgid "Number of rooms"
-msgstr "Zimmeranzahl"
+#~ msgid "Prices mentioned are total prices for the package above, including tourist tax."
+#~ msgstr "Die genannten Preise sind die Gesamtpreise für das Arrangement inkl. Kurtaxe."
 
-#: views/single-arrangement.twig:79
-msgid "Number of adults"
-msgstr "Anzahl Erwachsene"
+#~ msgid "Book now"
+#~ msgstr "Jetzt buchen"
 
-#: views/single-arrangement.twig:80
-msgid "Number of kids"
-msgstr "Anzahl Kinder + Alter der Kinder"
+#~ msgid "Book %s"
+#~ msgstr "%s buchen"
 
-#: views/single-arrangement.twig:84 views/single-arrangement.twig:90
-msgid "Dates"
-msgstr "Daten"
+#~ msgid "Personal details"
+#~ msgstr "Persönliche Info"
 
-#: views/single-arrangement.twig:85
-msgid "Date of arrival"
-msgstr "Datum Ankunft"
+#~ msgid "Zipcode"
+#~ msgstr "PLZ"
 
-#: views/single-arrangement.twig:86
-msgid "Date of departure"
-msgstr "Datum Abflug"
+#~ msgid "City"
+#~ msgstr "Ort"
 
-#: views/single-arrangement.twig:91
-msgid "Remarks"
-msgstr "Anmerkungen"
+#~ msgid "Country"
+#~ msgstr "Land"
 
-#: views/single-arrangement.twig:113
-msgid "Book this arrangement"
-msgstr "Buchen Sie dieses arrangement"
+#~ msgid "Details of your holiday"
+#~ msgstr "Urlaubsinfo"
 
-#: views/single-room.twig:19
-msgid "Peak season"
-msgstr "Hochsaison"
+#~ msgid "Number of rooms"
+#~ msgstr "Zimmeranzahl"
 
-#: views/single-room.twig:23 views/single-room.twig:39
-msgid "Including breakfast"
-msgstr "Frühstücksbuffet"
+#~ msgid "Number of adults"
+#~ msgstr "Anzahl Erwachsene"
 
-#: views/single-room.twig:25 views/single-room.twig:31
-#: views/single-room.twig:41 views/single-room.twig:47
-msgid "per person & night"
-msgstr "pro Pers. & Nacht"
+#~ msgid "Number of kids"
+#~ msgstr "Anzahl Kinder + Alter der Kinder"
 
-#: views/single-room.twig:29 views/single-room.twig:45
-msgid "Half board"
-msgstr "Halbpension"
+#~ msgid "Dates"
+#~ msgstr "Daten"
 
-#: views/single-room.twig:36
-msgid "Inter-season"
-msgstr "Nebensaison"
+#~ msgid "Date of arrival"
+#~ msgstr "Datum Ankunft"
 
-#: views/single-room.twig:56
-msgid "Room is equipped with"
-msgstr "Jedes Zimmer ist ausgestattet mit"
+#~ msgid "Date of departure"
+#~ msgstr "Datum Abflug"
 
-#: views/single-room.twig:67
-msgid "Response from our guests"
-msgstr "Bewertungen unserer Gäste"
+#~ msgid "Remarks"
+#~ msgstr "Anmerkungen"
 
-#: views/single-room.twig:85
-msgid "View our other rooms"
-msgstr "Andere Zimmer ansehen"
+#~ msgid "Book this arrangement"
+#~ msgstr "Buchen Sie dieses arrangement"
 
-#: views/single-room.twig:129
-msgid "Previous photo"
-msgstr "Vorheriges Foto"
+#~ msgid "Peak season"
+#~ msgstr "Hochsaison"
 
-#: views/single-room.twig:132
-msgid "Next photo"
-msgstr "Nächstes Foto"
+#~ msgid "Including breakfast"
+#~ msgstr "Frühstücksbuffet"
 
-#: views/single.twig:18
-msgid "Recent posts"
-msgstr "Letzten Neuigkeiten"
+#~ msgid "per person & night"
+#~ msgstr "pro Pers. & Nacht"
+
+#~ msgid "Half board"
+#~ msgstr "Halbpension"
+
+#~ msgid "Inter-season"
+#~ msgstr "Nebensaison"
+
+#~ msgid "Room is equipped with"
+#~ msgstr "Jedes Zimmer ist ausgestattet mit"
+
+#~ msgid "Response from our guests"
+#~ msgstr "Bewertungen unserer Gäste"
+
+#~ msgid "View our other rooms"
+#~ msgstr "Andere Zimmer ansehen"
+
+#~ msgid "Previous photo"
+#~ msgstr "Vorheriges Foto"
+
+#~ msgid "Next photo"
+#~ msgstr "Nächstes Foto"
+
+#~ msgid "Recent posts"
+#~ msgstr "Letzten Neuigkeiten"
 
 #~ msgid "p.p.p.n."
 #~ msgstr "pro Pers. & Nacht"

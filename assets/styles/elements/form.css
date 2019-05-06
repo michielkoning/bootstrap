@@ -32,7 +32,6 @@ select {
   font-size: 1rem;
   font-family: inherit;
   transition: border-color 0.15s ease-out;
-  background: #f2f2f2;
   transition: background-color 0.1s ease-out;
 
   &:disabled {
@@ -50,6 +49,10 @@ select {
   }
 }
 
+textarea {
+  resize: vertical;
+}
+
 textarea,
 input {
   &:read-only {
@@ -60,10 +63,6 @@ input {
   &::placeholder {
     color: var(--gray-dark);
   }
-}
-
-textarea {
-  resize: vertical;
 }
 
 label {

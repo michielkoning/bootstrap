@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Boostrap\n"
+"POT-Creation-Date: 2019-05-06 11:21+0200\n"
+"PO-Revision-Date: 2019-05-06 11:22+0200\n"
+"Last-Translator: \n"
+"Language-Team: Michiel Koning\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: includes/menu.php:5
+msgid "Header Menu"
+msgstr ""
+
+#: includes/theme-settings.php:48
+msgid "To maincontent"
+msgstr "To maincontent"
+
+#: includes/theme-settings.php:52
+msgid "To mainmenu"
+msgstr "To mainmenu"
+
+#~ msgid "Dit is nog niet vertaald"
+#~ msgstr "Dit is vertaald yoa"
+
+#~ msgid "Dit is ook nog niet vertaald"
+#~ msgstr "Dit is vertaald yoa"
+
+#~ msgid "Volg ons op"
+#~ msgstr "Volg ons opasdasd"
+
+#~ msgid "Volg ons ssop"
+#~ msgstr "Dit komt uit de translation"
